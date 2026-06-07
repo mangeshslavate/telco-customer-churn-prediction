@@ -16,6 +16,5 @@ env/
 .DS_Store
 Thumbs.db
 
-# Model files (optional)
-*.pkl
+
 *.joblib
