@@ -4,7 +4,8 @@ import joblib
 st.write("App Started Successfully")
 
 # Load Pipeline
-pipeline = joblib.load("../models/churn_pipeline.pkl")
+
+pipeline = joblib.load("models/churn_pipeline.pkl")
 
 st.set_page_config(
     page_title="Customer Churn Prediction",
